@@ -1,0 +1,57 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.calendar-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.workout-badges {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.workout-badges .badge {
+  font-size: 0.7rem;
+}
+
+.react-calendar__tile {
+  padding: 1rem 0.5rem !important;
+  height: auto !important;
+  min-height: 80px !important;
+}
+
+.react-calendar__tile--active {
+  background: #0d6efd !important;
+  color: white !important;
+}
+
+.react-calendar__tile--now {
+  background: #e9ecef !important;
+}
+
+/* Table Styles */
+.table {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0 !important;
+}
+
+.table th {
+  background: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table td {
+  vertical-align: middle;
+}
